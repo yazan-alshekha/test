@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/yazan-alshekha/test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# color in css3
+## most important tings about css
+1. Color  not only brings your site to life, but also helps
+  convey the mood and evokes reactions.
+![page with css vs page without css](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsxjaiXLh5FbSJrzadMZVdrhSdeJ-hQU893Jv6DS4egvuB0nMg&usqp=CAU)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+2. There are three ways to specify colors in CSS:
+RGB values, hex codes, and color names.
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yazan-alshekha/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+body {
+background-color: rgb(200,200,200);}
+h1 {
+background-color: DarkCyan;}
+h2 {
+background-color: #ee3e80;}
+p {
+background-color: white;}
+```
+3. also in optional CSS3 has introduced an extra value for RGB colors to
+indicate opacity. It is known as RGBA.
+*example*
+`
+p {
+color: rgb(100,100,90);}
+`
