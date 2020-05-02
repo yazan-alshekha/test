@@ -1,7 +1,7 @@
 # Logical operators
 
 1. logical and && 
-2. logical or ||
+2. logical or ``` || ```
 3. logical not !=
 4. grater than >
 5. grater than or equal to >=
